@@ -56,7 +56,6 @@ class LongestPalindromicSubstring: XCTestCase {
                     maxLength = P[i]
                     maxLengthIndex = i
                 }
-                print("i:\(i) maxId:\(maxId) max:\(max) maxLength:\(maxLength) maxLengthIndex:\(maxLengthIndex) P:\(P)")
             }
             let leftIndex = s.index(s.startIndex, offsetBy: (maxLengthIndex - (maxLength - 1))/2)
             let rightIndex = s.index(leftIndex, offsetBy:maxLength - 1 - 1)
