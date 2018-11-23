@@ -15,6 +15,7 @@
 		847E52D9219299D70023F816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847E52D7219299D70023F816 /* LaunchScreen.storyboard */; };
 		847E52E4219299D70023F816 /* LongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E52E3219299D70023F816 /* LongestSubstring.swift */; };
 		847E52EF21929B2F0023F816 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E52EE21929B2F0023F816 /* TwoSum.swift */; };
+		84B12D3B21A7AF70002AF00A /* StringToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B12D3A21A7AF70002AF00A /* StringToInteger.swift */; };
 		84F96F5B2192C88C00AF5E3C /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F96F5A2192C88C00AF5E3C /* AddTwoNumbers.swift */; };
 		84F96F5E2193DC4100AF5E3C /* MedianofTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F96F5D2193DC4100AF5E3C /* MedianofTwoSortedArrays.swift */; };
 		84F96F6121952F0000AF5E3C /* LongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F96F6021952F0000AF5E3C /* LongestPalindromicSubstring.swift */; };
@@ -44,6 +45,7 @@
 		847E52E3219299D70023F816 /* LongestSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestSubstring.swift; sourceTree = "<group>"; };
 		847E52E5219299D70023F816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		847E52EE21929B2F0023F816 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
+		84B12D3A21A7AF70002AF00A /* StringToInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToInteger.swift; sourceTree = "<group>"; };
 		84F96F5A2192C88C00AF5E3C /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
 		84F96F5D2193DC4100AF5E3C /* MedianofTwoSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianofTwoSortedArrays.swift; sourceTree = "<group>"; };
 		84F96F6021952F0000AF5E3C /* LongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromicSubstring.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				84F96F6021952F0000AF5E3C /* LongestPalindromicSubstring.swift */,
 				844BF01C21A3ABAE009A8B1D /* ZigZagConversion.swift */,
 				84FDD85521A505FB0027F237 /* ReverseInteger.swift */,
+				84B12D3A21A7AF70002AF00A /* StringToInteger.swift */,
 				847E52E5219299D70023F816 /* Info.plist */,
 			);
 			path = LeetCodeTests;
@@ -224,6 +227,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B12D3B21A7AF70002AF00A /* StringToInteger.swift in Sources */,
 				84FDD85621A505FB0027F237 /* ReverseInteger.swift in Sources */,
 				84F96F5E2193DC4100AF5E3C /* MedianofTwoSortedArrays.swift in Sources */,
 				84F96F5B2192C88C00AF5E3C /* AddTwoNumbers.swift in Sources */,
