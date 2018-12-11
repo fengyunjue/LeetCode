@@ -17,6 +17,9 @@
 		847E52E4219299D70023F816 /* LongestSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E52E3219299D70023F816 /* LongestSubstring.swift */; };
 		847E52EF21929B2F0023F816 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E52EE21929B2F0023F816 /* TwoSum.swift */; };
 		84B12D3B21A7AF70002AF00A /* StringToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B12D3A21A7AF70002AF00A /* StringToInteger.swift */; };
+		84C18EDD21AF8C2000E562A3 /* RegularExpressionMatching.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C18EDC21AF8C2000E562A3 /* RegularExpressionMatching.swift */; };
+		84D2420121BA674B0079F974 /* ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D2420021BA674B0079F974 /* ContainerWithMostWater.swift */; };
+		84D2421D21BF9D380079F974 /* IntergerToRoman.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D2421C21BF9D380079F974 /* IntergerToRoman.swift */; };
 		84F96F5B2192C88C00AF5E3C /* AddTwoNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F96F5A2192C88C00AF5E3C /* AddTwoNumbers.swift */; };
 		84F96F5E2193DC4100AF5E3C /* MedianofTwoSortedArrays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F96F5D2193DC4100AF5E3C /* MedianofTwoSortedArrays.swift */; };
 		84F96F6121952F0000AF5E3C /* LongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F96F6021952F0000AF5E3C /* LongestPalindromicSubstring.swift */; };
@@ -48,6 +51,9 @@
 		847E52E5219299D70023F816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		847E52EE21929B2F0023F816 /* TwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 		84B12D3A21A7AF70002AF00A /* StringToInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToInteger.swift; sourceTree = "<group>"; };
+		84C18EDC21AF8C2000E562A3 /* RegularExpressionMatching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegularExpressionMatching.swift; sourceTree = "<group>"; };
+		84D2420021BA674B0079F974 /* ContainerWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerWithMostWater.swift; sourceTree = "<group>"; };
+		84D2421C21BF9D380079F974 /* IntergerToRoman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntergerToRoman.swift; sourceTree = "<group>"; };
 		84F96F5A2192C88C00AF5E3C /* AddTwoNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTwoNumbers.swift; sourceTree = "<group>"; };
 		84F96F5D2193DC4100AF5E3C /* MedianofTwoSortedArrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedianofTwoSortedArrays.swift; sourceTree = "<group>"; };
 		84F96F6021952F0000AF5E3C /* LongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindromicSubstring.swift; sourceTree = "<group>"; };
@@ -115,6 +121,9 @@
 				84FDD85521A505FB0027F237 /* ReverseInteger.swift */,
 				84B12D3A21A7AF70002AF00A /* StringToInteger.swift */,
 				84489F9421AB8E7D003D4D25 /* PalindromeNumber.swift */,
+				84C18EDC21AF8C2000E562A3 /* RegularExpressionMatching.swift */,
+				84D2420021BA674B0079F974 /* ContainerWithMostWater.swift */,
+				84D2421C21BF9D380079F974 /* IntergerToRoman.swift */,
 				847E52E5219299D70023F816 /* Info.plist */,
 			);
 			path = LeetCodeTests;
@@ -230,10 +239,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D2421D21BF9D380079F974 /* IntergerToRoman.swift in Sources */,
 				84B12D3B21A7AF70002AF00A /* StringToInteger.swift in Sources */,
 				84FDD85621A505FB0027F237 /* ReverseInteger.swift in Sources */,
 				84F96F5E2193DC4100AF5E3C /* MedianofTwoSortedArrays.swift in Sources */,
+				84C18EDD21AF8C2000E562A3 /* RegularExpressionMatching.swift in Sources */,
 				84489F9521AB8E7D003D4D25 /* PalindromeNumber.swift in Sources */,
+				84D2420121BA674B0079F974 /* ContainerWithMostWater.swift in Sources */,
 				84F96F5B2192C88C00AF5E3C /* AddTwoNumbers.swift in Sources */,
 				847E52EF21929B2F0023F816 /* TwoSum.swift in Sources */,
 				84F96F6121952F0000AF5E3C /* LongestPalindromicSubstring.swift in Sources */,
