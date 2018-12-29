@@ -10,8 +10,6 @@ import XCTest
 
 class RemoveNthFromEnd: XCTestCase {
     
-
-    
     class Solution {
         func removeNthFromEnd(_ head: ListNode?, _ n: Int) -> ListNode? {
             var first: ListNode? = head
@@ -55,24 +53,7 @@ class RemoveNthFromEnd: XCTestCase {
         }
     }
 
-    public class ListNode : CustomStringConvertible{
-        public var val: Int
-        public var next: ListNode?
-        public init(_ val: Int) {
-            self.val = val
-            self.next = nil
-        }
-        
-        public var description: String {
-            var str = "\(val)"
-            var next = self
-            while next.next != nil{
-                str += "->\(next.next!.val)"
-                next = next.next!
-            }
-            return str
-        }
-    }
+ 
     
     func testExample() {
         let node = ListNode(1)

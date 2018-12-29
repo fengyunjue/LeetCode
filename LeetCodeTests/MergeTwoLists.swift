@@ -9,25 +9,6 @@
 import XCTest
 
 class MergeTwoLists: XCTestCase {
-
-    public class ListNode : CustomStringConvertible{
-        public var val: Int
-        public var next: ListNode?
-        public init(_ val: Int) {
-            self.val = val
-            self.next = nil
-        }
-        
-        public var description: String {
-            var str = "\(val)"
-            var next = self
-            while next.next != nil{
-                str += "->\(next.next!.val)"
-                next = next.next!
-            }
-            return str
-        }
-    }
     
     class Solution {
         func mergeTwoLists(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
@@ -56,6 +37,7 @@ class MergeTwoLists: XCTestCase {
             }
             return header.next
         }
+    
     }
     
 
