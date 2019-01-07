@@ -12,10 +12,15 @@
 		8425606C21C77AA7000B5FAD /* ThreeSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8425606B21C77AA7000B5FAD /* ThreeSum.swift */; };
 		84489F9521AB8E7D003D4D25 /* PalindromeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84489F9421AB8E7D003D4D25 /* PalindromeNumber.swift */; };
 		844BF01D21A3ABAE009A8B1D /* ZigZagConversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844BF01C21A3ABAE009A8B1D /* ZigZagConversion.swift */; };
+		8460E99421E32AC2005C5FCC /* StrStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8460E99321E32AC2005C5FCC /* StrStr.swift */; };
 		8463EE5021D5FFDA0010CE7D /* MergeKLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463EE4F21D5FFDA0010CE7D /* MergeKLists.swift */; };
 		8463EE5421D6000D0010CE7D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463EE5121D600000010CE7D /* ListNode.swift */; };
 		8463EE5521D600110010CE7D /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463EE5121D600000010CE7D /* ListNode.swift */; };
 		8463EE5B21D74FA20010CE7D /* SwapPairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463EE5A21D74FA20010CE7D /* SwapPairs.swift */; };
+		8463EE5E21DCA2930010CE7D /* ReverseKGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463EE5D21DCA2930010CE7D /* ReverseKGroup.swift */; };
+		8463EE6121DDBC6A0010CE7D /* RemoveDuplicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463EE6021DDBC6A0010CE7D /* RemoveDuplicates.swift */; };
+		8463EE6321DDEA4C0010CE7D /* RemoveElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463EE6221DDEA4C0010CE7D /* RemoveElement.swift */; };
+		8463EE6521DDF3BF0010CE7D /* PrisonAfterNDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8463EE6421DDF3BF0010CE7D /* PrisonAfterNDays.swift */; };
 		847E52CF219299D60023F816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E52CE219299D60023F816 /* AppDelegate.swift */; };
 		847E52D1219299D60023F816 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847E52D0219299D60023F816 /* ViewController.swift */; };
 		847E52D4219299D60023F816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847E52D2219299D60023F816 /* Main.storyboard */; };
@@ -58,9 +63,14 @@
 		8425606B21C77AA7000B5FAD /* ThreeSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeSum.swift; sourceTree = "<group>"; };
 		84489F9421AB8E7D003D4D25 /* PalindromeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeNumber.swift; sourceTree = "<group>"; };
 		844BF01C21A3ABAE009A8B1D /* ZigZagConversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZigZagConversion.swift; sourceTree = "<group>"; };
+		8460E99321E32AC2005C5FCC /* StrStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrStr.swift; sourceTree = "<group>"; };
 		8463EE4F21D5FFDA0010CE7D /* MergeKLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeKLists.swift; sourceTree = "<group>"; };
 		8463EE5121D600000010CE7D /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		8463EE5A21D74FA20010CE7D /* SwapPairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwapPairs.swift; sourceTree = "<group>"; };
+		8463EE5D21DCA2930010CE7D /* ReverseKGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseKGroup.swift; sourceTree = "<group>"; };
+		8463EE6021DDBC6A0010CE7D /* RemoveDuplicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveDuplicates.swift; sourceTree = "<group>"; };
+		8463EE6221DDEA4C0010CE7D /* RemoveElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveElement.swift; sourceTree = "<group>"; };
+		8463EE6421DDF3BF0010CE7D /* PrisonAfterNDays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrisonAfterNDays.swift; sourceTree = "<group>"; };
 		847E52CB219299D60023F816 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		847E52CE219299D60023F816 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		847E52D0219299D60023F816 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -168,8 +178,13 @@
 				84C3C34E21D46B0800D63B7F /* GenerateParenthesis.swift */,
 				8463EE4F21D5FFDA0010CE7D /* MergeKLists.swift */,
 				8463EE5A21D74FA20010CE7D /* SwapPairs.swift */,
+				8463EE5D21DCA2930010CE7D /* ReverseKGroup.swift */,
+				8463EE6021DDBC6A0010CE7D /* RemoveDuplicates.swift */,
+				8463EE6221DDEA4C0010CE7D /* RemoveElement.swift */,
+				8460E99321E32AC2005C5FCC /* StrStr.swift */,
 				8425606821C39B46000B5FAD /* PowXandN.swift */,
 				84C3C34721D0EA6200D63B7F /* FourSumCount.swift */,
+				8463EE6421DDF3BF0010CE7D /* PrisonAfterNDays.swift */,
 				847E52E5219299D70023F816 /* Info.plist */,
 			);
 			path = LeetCodeTests;
@@ -290,8 +305,10 @@
 				84D2421D21BF9D380079F974 /* IntergerToRoman.swift in Sources */,
 				84C3C34621D0883800D63B7F /* IsValid.swift in Sources */,
 				8463EE5B21D74FA20010CE7D /* SwapPairs.swift in Sources */,
+				8463EE6121DDBC6A0010CE7D /* RemoveDuplicates.swift in Sources */,
 				8463EE5021D5FFDA0010CE7D /* MergeKLists.swift in Sources */,
 				84B12D3B21A7AF70002AF00A /* StringToInteger.swift in Sources */,
+				8463EE5E21DCA2930010CE7D /* ReverseKGroup.swift in Sources */,
 				84FDD85621A505FB0027F237 /* ReverseInteger.swift in Sources */,
 				84D2424321C1FCBC0079F974 /* LongestCommonPrefix.swift in Sources */,
 				84F96F5E2193DC4100AF5E3C /* MedianofTwoSortedArrays.swift in Sources */,
@@ -300,6 +317,7 @@
 				84489F9521AB8E7D003D4D25 /* PalindromeNumber.swift in Sources */,
 				84D2421F21BFA5F70079F974 /* RomanToInteger.swift in Sources */,
 				84C3C31821C9E63900D63B7F /* LetterCombinations.swift in Sources */,
+				8463EE6521DDF3BF0010CE7D /* PrisonAfterNDays.swift in Sources */,
 				84D2420121BA674B0079F974 /* ContainerWithMostWater.swift in Sources */,
 				840F0A4E21C8A21700DD5492 /* ThreeSumClosest.swift in Sources */,
 				84F96F5B2192C88C00AF5E3C /* AddTwoNumbers.swift in Sources */,
@@ -308,8 +326,10 @@
 				84C3C34821D0EA6200D63B7F /* FourSumCount.swift in Sources */,
 				84F96F6121952F0000AF5E3C /* LongestPalindromicSubstring.swift in Sources */,
 				847E52E4219299D70023F816 /* LongestSubstring.swift in Sources */,
+				8460E99421E32AC2005C5FCC /* StrStr.swift in Sources */,
 				8463EE5521D600110010CE7D /* ListNode.swift in Sources */,
 				844BF01D21A3ABAE009A8B1D /* ZigZagConversion.swift in Sources */,
+				8463EE6321DDEA4C0010CE7D /* RemoveElement.swift in Sources */,
 				84C3C34F21D46B0800D63B7F /* GenerateParenthesis.swift in Sources */,
 				84C3C31B21CB3DFF00D63B7F /* FourSum.swift in Sources */,
 				84C3C34B21D326E900D63B7F /* MergeTwoLists.swift in Sources */,
